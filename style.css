@@ -1,0 +1,41 @@
+body {
+  font-family: Arial;
+  background-color: #0d1117;
+  color: #c9d1d9;
+}
+h1 {
+  color: rgb(29, 185, 76);
+}
+
+a {
+  color: #8b949e;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(102, 19, 236);
+  font-size: 25px;
+}
+
+a::after {
+  content: " 🎳";
+}
+
+ul > li {
+  font-weight: bold;
+}
+
+ul li:hover {
+  color: #4f8cc9;
+}
+ul li:nth-child(3) {
+  background-color: #21262d;
+}
+
+ul li::before {
+  content: "🧬";
+}
+
+p::first-letter {
+  font-size: 200%;
+  color: rgb(184, 132, 55);
+}
